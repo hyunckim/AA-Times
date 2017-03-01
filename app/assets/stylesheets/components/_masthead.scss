@@ -25,6 +25,10 @@
 	color: $dark-gray;
 }
 
+.language-nav a:hover {
+	border-bottom: 1px solid $dark-gray;
+}
+
 .language-nav ul {
 	display: flex;
 }
@@ -60,9 +64,13 @@
 }
 
 .masthead-links a,
-.masthead-links button, 
+.masthead-links button,
 .masthead-links time {
 	margin-right: 10px;
+}
+
+.masthead-links a:hover{
+	border-bottom: 1px solid $dark-gray;
 }
 
 .masthead-links i {
@@ -71,4 +79,8 @@
 
 .masthead-links strong {
 	color: green;
+}
+
+.masthead-links li:last-of-type {
+	border-right: 0;
 }
